@@ -1,0 +1,11 @@
+.home{
+    padding: 50px;
+    width: 100vw;
+    min-height: 85%;
+    max-height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 40px;
+}

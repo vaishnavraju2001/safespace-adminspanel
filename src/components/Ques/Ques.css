@@ -1,0 +1,45 @@
+.ques{
+    width: 80%;
+    min-height: 25vh;
+    max-height: max-content;
+    background-color: #203C60;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    gap: 15px;
+}
+select{
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+}
+input {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  width: 300px;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #203C60;
+    border: 0;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #C1DAE8;
+}
